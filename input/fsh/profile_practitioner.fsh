@@ -1,4 +1,4 @@
 Profile: OSAPractitioner
-Parent: $USCorePractitioner
+Parent: Practitioner //USCorePractitioner
 Description: "An example Practitioner profile"
 * identifier[NPI] 1..1

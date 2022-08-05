@@ -1,5 +1,5 @@
 Profile: OSABodyMassIndex
-Parent: $USCoreBodyMassIndex
+Parent: Observation //USCoreBodyMassIndex
 Description: "Body mass index, or BMI, is a measure of body size. It combines a person's weight with their height."
 * performer 1..1 MS
 
@@ -8,7 +8,7 @@ Description: "Body mass index, or BMI, is a measure of body size. It combines a 
 
 
 Profile: OSACondition
-Parent: $USCoreCondition
+Parent: Condition //USCoreCondition
 Description: "Obstructive sleep apnea (OSA) is a condition in which breathing stops involuntarily for brief periods of time during sleep. [Source: Healthline](https://www.healthline.com/health/sleep/obstructive-sleep-apnea)"
 * code from ObstructiveSleepApneaVS (required)
 * asserter only Reference(OSAPractitioner)
